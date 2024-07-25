@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@400..700&family=Inter:wght@100..900&display=swap');
+.bebas-neue-font {
+      font-family: "Bebas Neue", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+}
+body {
+      margin: 0;
+      padding: 0;
+}
+/* nav start styles */
+.nav-images {
+      height: 40px;
+      width: 250px;
+}
+nav {
+      display: flex;
+      align-items: center;
+      justify-content:space-around;
+     padding-top: 50px;
+}
+nav ul li {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px;
+   
+}
+nav ul li a {  
+      color: #3c3c3c; 
+    text-decoration: none;
+}
+/* nav end styles */
+
+/* header start styles */
+header {
+      background-color: #fffbf0;
+}
+.header-content {
+     display: flex;
+     align-items: center; 
+     justify-content: space-around;
+     padding: 10px 0px 100px;
+}
+.header-heading1 {
+      color: #FABE4C;
+      font-size: 70px;
+      font-weight: 500;
+      margin-bottom: -60px;
+      margin-top: -50px;
+      margin-left: 40px;
+}
+.header-heading2 {
+      color: #363958;
+      font-size: 70px;
+      font-weight: 500;
+      margin-left: 40px;
+      margin-bottom: -20px;
+}
+.header-para {
+      font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+    opacity: 0.8; 
+}
+.btn-primary {
+      display: flex;
+      color: #fff;
+      background-color: #a4bc46;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      border: none;
+      margin-left: 40px;
+      width: 150px;
+      padding: 10px 20px;
+}
+.shop-card {
+      width: 30px;
+}
+.model {
+      margin-right: 40px;
+}
+/* header end styles */
+/* main start styles */
+/* main end styles */
+/* footer start styles */
+/* footer end styles */
+    
