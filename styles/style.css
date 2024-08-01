@@ -39,6 +39,10 @@ nav ul li a {
       text-decoration: none;
 }
 
+ul li a:hover {
+      color: #ff0000;
+}
+
 /* nav end styles */
 
 /* header start styles */
@@ -85,6 +89,13 @@ header {
       border: none;
       width: 150px;
       padding: 10px 20px;
+}
+
+.btn-primary:hover {
+      transition: all 0.2s ease;
+      transform: scale(1.01);
+      cursor: pointer;
+      box-shadow: 0 0 15px 5px #a0a0a0;
 }
 
 .header-description {
@@ -175,6 +186,13 @@ main {
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
+.fashion-content:hover {
+      transition: all 0.2s ease;
+      transform: scale(1.07);
+      cursor: pointer;
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 /* main end styles */
 /* footer start styles */
 footer {
@@ -200,6 +218,12 @@ footer {
       margin-bottom: 20px;
       margin-left: 80px;
       box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.footer-title:hover {
+      transition: all 0.2s ease;
+      transform: scale(1.07);
+      cursor: pointer;
 }
 
 .footer-img {
